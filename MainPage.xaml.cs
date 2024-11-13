@@ -68,19 +68,19 @@ namespace macalculatrice
 
         private void Button_clicked_moinss(object sender, EventArgs e)
         {
-            explabel.Text = "-";
+            explabel.Text += "-";
         }
         private void Button_clicked_plus(object sender, EventArgs e)
         {
-            explabel.Text = "+";
+            explabel.Text += "+";
         }
         private void Button_clicked_div(object sender, EventArgs e)
         {
-            explabel.Text = "/";
+            explabel.Text += "/";
         }
         private void Button_clicked_foiss(object sender, EventArgs e)
         {
-            explabel.Text = "*";
+            explabel.Text += "*";
         }
         private void Button_clicked_0(object sender, EventArgs e)
         {
